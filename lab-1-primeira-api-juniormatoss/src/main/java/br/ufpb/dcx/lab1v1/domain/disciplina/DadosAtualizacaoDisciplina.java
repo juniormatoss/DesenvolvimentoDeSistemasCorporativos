@@ -5,7 +5,7 @@ import java.util.List;
 public record DadosAtualizacaoDisciplina(
         String nome,
         int likes,
-        List<double> notas
+        List<Double> notas
 ) {
 
 }

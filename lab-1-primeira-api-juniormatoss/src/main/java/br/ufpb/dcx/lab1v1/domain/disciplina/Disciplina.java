@@ -8,16 +8,18 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
-@Getter
-@Setter
+
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
+@Setter
+
 public class Disciplina {
 
     private int id;
     private String nome;
     private int likes;
-    private List<double> notas = new ArrayList<double>();
+    private List<Double> notas = new ArrayList<Double>();
 
 
     public Disciplina(DadosCadastroDisciplina dados) {

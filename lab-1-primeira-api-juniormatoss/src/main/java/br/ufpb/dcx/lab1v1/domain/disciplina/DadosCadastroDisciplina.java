@@ -6,6 +6,6 @@ public record DadosCadastroDisciplina(
         int id,
         String nome,
         int likes,
-        List<double> notas
+        List<Double> notas
 ) {
 }
